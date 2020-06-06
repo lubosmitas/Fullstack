@@ -1,0 +1,2 @@
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/new_note_spa: POST
+server-->browser: HTTP/1.1 201 Created, Content-Type: application/json [{"message":"note created"}]

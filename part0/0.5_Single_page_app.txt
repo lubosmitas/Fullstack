@@ -1,0 +1,8 @@
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/spa Request Method: GET
+server-->browser: HTTP/1.1 200 OK, Content-Type: text/html
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/main.css: GET
+server-->browser: HTTP/1.1 200 OK, Content-Type: text/css
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/spa.js: GET
+server-->browser: HTTP/1.1 200 OK, Content-Type: application/javascript
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/data.json: GET
+server-->browser: HTTP/1.1 200 OK, Content-Type: application/json

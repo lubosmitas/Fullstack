@@ -1,0 +1,10 @@
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/new_note Request Method: POST
+server-->browser: HTTP status code 302, URL redirect: Location	/notes
+browser->server: Request URL https://fullstack-exampleapp.herokuapp.com/notes Request Method:GET
+server-->browser: HTTP/1.1 200 OK Content-Type: text/html
+browser->server: Request URL:https://fullstack-exampleapp.herokuapp.com/main.css Request Method:GET
+server-->browser: HTTP/1.1 200 OK Content-Type: text/html
+browser->server: Request URL:https://fullstack-exampleapp.herokuapp.com/main.js Request Method:GET
+server-->browser: HTTP/1.1 200 OK  Content-Type: application/javascript 
+browser->server: Request URL:https://fullstack-exampleapp.herokuapp.com/data.json Request Method:GET
+server-->browser: HTTP/1.1 200 OK Content-Type: application/json [{content: "HTML is easy", date: "2019-05-23T17:30:31.098Z" }, ...]
